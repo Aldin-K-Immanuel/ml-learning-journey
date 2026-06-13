@@ -8,8 +8,8 @@ scores   = np.array([55, 60, 70, 80, 85, 95])
 # Step 1 — Start with random m and c
 m = 0.0
 c = 0.0
-learning_rate = 0.0001
-epochs = 1000  # how many times we loop
+learning_rate = 0.0008
+epochs = 50000  # how many times we loop
 
 # Step 2 — Training loop
 for epoch in range(epochs):
